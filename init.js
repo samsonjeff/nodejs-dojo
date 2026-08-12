@@ -1,5 +1,5 @@
 //imports
-const {greet1, greet2} = require('./vars')
+const {greet1, greet2} = require('./names')
 
 const showMessage = (sampleVariable) => {
     console.log(`${greet1} ${sampleVariable}!`);
