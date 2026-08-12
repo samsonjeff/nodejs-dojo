@@ -1,8 +1,6 @@
-//imports
+//imports modules
 const {name1, name2, toExport} = require('./names')
-const show = require('./functions')
-require('./auto-run')
+const showContent = require('./init')
+require('./auto-run') // auto run
 
-
-
-// show.showMessage(name1);
+showContent.showMessage(name1);
