@@ -1,5 +1,7 @@
-
-const {name1,name2} = require('./vars')
+//imports
+const {name1, name2, toExport} = require('./names')
 const show = require('./functions')
 
-show.showSecret(name1);
+
+
+show.showMessage(name1);

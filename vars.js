@@ -8,7 +8,6 @@ const name2 = "Jones"
 const greet1 = "Hi"
 const greet2 = "Hello"
 
-
 module.exports = {
     name1,
     name2,
