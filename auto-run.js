@@ -3,7 +3,7 @@
 const fs = require('fs')
 
 function showText(){
-    const readTxt = fs.readFileSync('./sample.txt').toString('utf8')
+    const readTxt = fs.readFileSync('./sample.txt', 'utf8').toString()
     console.log(readTxt);
 }
 
