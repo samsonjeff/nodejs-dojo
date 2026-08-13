@@ -8,10 +8,15 @@ const name2 = "Jones"
 const greet1 = "Hi"
 const greet2 = "Hello"
 
+const obj = {
+    name: "Bob",
+    age: 30
+}
 
 module.exports = {
     name1,
     name2,
     greet1,
-    greet2
+    greet2,
+    obj
 }

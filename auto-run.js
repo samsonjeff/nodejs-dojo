@@ -7,5 +7,7 @@ function showText(){
     console.log(readTxt);
 }
 
+
+
 //auto run when use as direct require
 showText()
