@@ -1,9 +1,16 @@
 //imports
-const {greet1, greet2} = require('./names')
+const data = require('./data')
 
-const showMessage = (sampleVariable) => {
-    console.log(`${greet1} ${sampleVariable}!`);
+const newObj = data.intObj
+
+
+newObj.toString = function (){
+    return `name:${this.name}, age:${this.age}`
 }
 
-module.exports = {showMessage}
+const showMessage = (sampleVariable) => {
+    console.log(`${data.greet1} ${sampleVariable}!`);
+}
+
+module.exports = {showMessage, newObj}
 

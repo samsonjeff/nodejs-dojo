@@ -8,7 +8,7 @@ const name2 = "Jones"
 const greet1 = "Hi"
 const greet2 = "Hello"
 
-const obj = {
+const intObj = {
     name: "Bob",
     age: 30
 }
@@ -18,5 +18,5 @@ module.exports = {
     name2,
     greet1,
     greet2,
-    obj
+    intObj
 }
